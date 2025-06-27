@@ -1,0 +1,32 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('2.jpg') center/cover no-repeat;
+  min-height: 100vh;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+  transition: 0.3s;
+}
+
+.priority-low {
+  color: green;
+}
+
+.priority-medium {
+  color: orange;
+}
+
+.priority-high {
+  color: red;
+  font-weight: bold;
+}
+
+.list-group-item {
+  transition: all 0.2s ease-in-out;
+}
+
+.list-group-item:hover {
+  background-color: darkgrey;
+}
